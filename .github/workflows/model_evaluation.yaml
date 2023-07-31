@@ -9,4 +9,4 @@ jobs:
       - name: Train model
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: 
+        run: |
