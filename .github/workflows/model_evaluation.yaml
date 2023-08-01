@@ -10,5 +10,5 @@ jobs:
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          pip install -r requirements.txt
+          python3 -m pip install requirements.txt
           python wine_linear_regression_test.py
