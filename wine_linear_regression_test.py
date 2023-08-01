@@ -75,7 +75,7 @@ def train(alpha=0.3, l1_ratio=0.5):
         outfile.write("  MAE: %s" % mae)
         outfile.write("  R2: %s" % r2)
 
-train()
+train(0.9, 0.7)
 
 # COMMAND ----------
 
